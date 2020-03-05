@@ -9,6 +9,8 @@
 #define PASSWORD    "0819110933"
 #define LINE_TOKEN  "QsQ98UigZ6hSi5Hub50J1HGNyDo2dmB7rdE5OE7s7BO"
 
+//ส่วนตั้งค่าโปรแกรม
+
 void setup(){
  Serial.begin(115200);
   Serial.println(LINE.getVersion());
